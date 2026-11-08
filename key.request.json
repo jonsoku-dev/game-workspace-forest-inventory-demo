@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "kind": "icon",
+  "prompt": "숲 탐험 게임의 인벤토리에 들어갈 오래된 황동 열쇠 하나. 정확히 24×24 픽셀에서 즉시 열쇠로 읽히는 단순하고 굵은 실루엣. 손잡이는 왼쪽 위의 커다란 도토리 모양: 둥근 황동 도토리 몸체, 짙은 밤색의 넓은 도토리 갓과 아주 짧은 꼭지, 몸체 중앙의 작은 투명 구멍. 손잡이에서 굵은 황동 자루가 오른쪽 아래로 약 45도 대각선으로 이어진다. 자루의 아래쪽 끝 한쪽에 직사각형 톱니 정확히 두 개가 나란히 돌출되며, 두 톱니 사이에는 실제 크기에서도 보이는 뚜렷한 투명 홈이 있다. 금색 하이라이트는 도토리 몸체의 왼쪽 위와 자루 윗면에 커다란 연결된 면으로 배치하고, 크림색 반사광을 작게 더한다. 밤색 음영과 소수의 큰 마모 자국으로 오래된 황동을 표현한다. 장식 잎, 끈, 보석, 별, 추가 열쇠, 배경, 텍스트는 넣지 않는다. 사방에 최소 1픽셀의 투명 여백을 남기고 전체 열쇠가 잘리지 않게 한다.",
+  "size": 24,
+  "max_colors": 12,
+  "palette": [
+    "#332116",
+    "#563422",
+    "#7b4b28",
+    "#8b6230",
+    "#ae8038",
+    "#cc9e49",
+    "#e9bf63",
+    "#f6d78c",
+    "#fff0c2",
+    "#fff8e2"
+  ],
+  "style": "Crisp low-resolution pixel art designed on a native 24×24 grid. Bold coherent pixel clusters, strong brass/chestnut/cream separation, broad gold highlight planes at least two pixels thick. One-pixel dark chestnut contour with restrained wear. Hard opaque edges and fully transparent background; no antialiasing, blur, gradients, dithering, isolated sparkle pixels, or cast shadow.",
+  "view": "Flat orthographic inventory icon showing the broad face. Acorn bow at upper left, shaft and exactly two clearly separated teeth at lower right; strong northwest-to-southeast diagonal.",
+  "outline": "#332116"
+}

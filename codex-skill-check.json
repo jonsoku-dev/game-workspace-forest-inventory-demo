@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "test_date": "2026-11-08",
+  "plugin_id": "pixel-asset-pipeline@pixel-asset-pipeline",
+  "installed_version": "0.2.1",
+  "skill": {
+    "skill_name": "pixel-asset-pipeline:pixel-asset-pipeline",
+    "skill_path": "/Users/jongseoklee/.codex/plugins/cache/pixel-asset-pipeline/pixel-asset-pipeline/0.2.1/.agents/skills/pixel-asset-pipeline/SKILL.md",
+    "enabled": true,
+    "explicit_input_type": "skill"
+  },
+  "project": "/Users/jongseoklee/Documents/ChatGPT/forest-inventory-demo",
+  "codex": {
+    "app_server_turn_id": "01a1b9f2-8ee0-7b71-a3bb-efa407bdafe8",
+    "turn_status": "completed"
+  },
+  "skill_instructions_read_from_cache": true,
+  "working_directories_observed": [
+    "/Users/jongseoklee/.codex/plugins/cache/pixel-asset-pipeline/pixel-asset-pipeline/0.2.1",
+    "/Users/jongseoklee/Documents/ChatGPT/forest-inventory-demo"
+  ],
+  "runtime": {
+    "executable": "/Users/jongseoklee/.local/share/uv/tools/pixel-asset-pipeline/bin/pixel-asset",
+    "pillow": "12.3.0",
+    "plugin_cache_files_verified": 16
+  },
+  "commands": [
+    {
+      "command": "/bin/zsh -lc 'mkdir -p .tmp .logs && TMPDIR=\"$PWD/.tmp\" PYTHONDONTWRITEBYTECODE=1 pixel-asset build --request key.request.json --out acorn-key --codex > .logs/acorn-key.build.stdout.json 2> .logs/acorn-key.build.stderr.log'",
+      "cwd": "/Users/jongseoklee/Documents/ChatGPT/forest-inventory-demo",
+      "exit_code": 0
+    },
+    {
+      "command": "/bin/zsh -lc 'PYTHONDONTWRITEBYTECODE=1 pixel-asset validate --request key.request.json acorn-key/asset.png > .logs/acorn-key.validate.stdout.json 2> .logs/acorn-key.validate.stderr.log'",
+      "cwd": "/Users/jongseoklee/Documents/ChatGPT/forest-inventory-demo",
+      "exit_code": 0
+    }
+  ],
+  "output": {
+    "bundle": "acorn-key",
+    "origin": "codex-imagegen",
+    "attached_style_reference": false,
+    "asset_sha256": "b0f0f3fc8d1d6488b279457185f7681caec9d9bbe803ddc2eb858897446e1caf",
+    "draft_sha256": "9306a79df50b82abd31443cbe7da1e52b19ef2e6b0606f23825ae82a46eb34ed",
+    "native_output_filename": "exec-62d91698-0fd9-449d-9428-7c9f7f3b04f4.png",
+    "validation_matches_independent_cli": true,
+    "metrics": {
+      "width": 24,
+      "height": 24,
+      "mode": "RGBA",
+      "foreground_pixels": 218,
+      "transparent_pixels": 358,
+      "semi_alpha_pixels": 0,
+      "color_count": 9,
+      "colors_outside_palette": 0,
+      "isolated_pixels": 0,
+      "isolated_ratio": 0.0,
+      "edge_pixels": 0,
+      "visible_bounds": [
+        2,
+        1,
+        22,
+        23
+      ],
+      "color_limit": 12,
+      "kind": "icon"
+    }
+  }
+}
